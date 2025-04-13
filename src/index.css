@@ -13,6 +13,45 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+.container-app {
+  display: flex;
+  flex-direction: column;
+  min-height:200vh;
+}
+
+.header-app {
+  display: flex;
+  justify-content: space-between;
+  align-items:center;
+  padding:30px;
+  background-color:grey;
+}
+
+.logo-app {
+  font-size:3rem;
+  font-weight:bolder;
+}
+
+.meny ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+}
+
+.meny li {
+  margin-left: 0;
+}
+
+.meny a {
+  text-decoration: none;
+  color: #000;
+}
+
+.innhold-app {
+  padding:15px;
+}
+
 /*
 a {
   font-weight: 500;

@@ -1,9 +1,12 @@
-export default function HomePage()  {
-return(
-    <header>
-        <p>hei</p>
-    </header>
-)
+import React from 'react'
 
-
+function HomePage({ gruppeteam }) {
+return (
+    <div>
+        <h1>Vårt gruppeteam</h1>
+        <p>hei {gruppeteam}</p>
+    </div>
+);
 }
+
+export default HomePage;
