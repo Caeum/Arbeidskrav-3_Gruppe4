@@ -2,16 +2,16 @@ import { React, useState } from 'react'
 import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom'
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
-import './App.css'
+import './index.css'
 import HomePage from './components/HomePage'
 import Gruppen from './components/Gruppen'
 
 const gruppeteam = "teamet vårt";
 const personer = [
   { id: 'sophia', fornavn: 'Sophia', bilde: 'bildeavsophia.png'},
-  { id: 'medlem2', fornavn: 'Medlem2', bilde: 'bildeavmedlem2.png'},
-  { id: 'medlem3', fornavn: 'Medlem3', bilde: 'bildeavmedlem3.png'},
-  { id: 'medlem4', fornavn: 'Medlem4', bilde: 'bildeavmedlem4.png'},
+  { id: 'Ikram', fornavn: 'Ikram', bilde: 'bildeavikram.png'},
+  { id: 'Rebecka', fornavn: 'Rebecka', bilde: 'bildeavrebecka.png'},
+  { id: 'Mohammed', fornavn: 'Mohammed', bilde: 'bildeavmohammed.png'},
 ];
 
 function App() {
