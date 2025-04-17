@@ -1,3 +1,6 @@
+// Liste over alle personer i gruppen
+// Brukes for å generere både meny og visning
+
 const profiles = [
     {
       id: 'ikram',
@@ -10,11 +13,11 @@ const profiles = [
     },
     {
       id: 'sophia',
-      fornavn: '?',
-      etternavn: '?',
-      epost: '?@hiof.no',
-      bilde: '??.png',
-      bio: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.',
+      fornavn: 'Sophia',
+      etternavn: 'Helseth',
+      epost: 'sphelset@hiof.no',
+      bilde: 'bildeavsophia.png',
+      bio: 'Jeg heter Sophia, og jeg er 27 år, og elsker løping. Jeg bor i Fredrikstad og liker design. interesser: løpe, danse, lese',
       interesser: ['bla', 'bla', 'bla'],
     },
     {
@@ -28,7 +31,7 @@ const profiles = [
     },
     {
       id: 'mohammed',
-      fornavn: '?',
+      fornavn: 'Mohammed',
       etternavn: '?',
       epost: '?@hiof.no',
       bilde: '??.png',
