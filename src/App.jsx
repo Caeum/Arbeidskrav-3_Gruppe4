@@ -8,14 +8,13 @@ import Gruppen from './components/Gruppen'
 
 const gruppeteam = "teamet vårt";
 const personer = [
-  { id: 'sophia', fornavn: 'Sophia', bilde: 'bildeavsophia.png'},
-  { id: 'Ikram', fornavn: 'Ikram', bilde: 'bildeavikram.png'},
-  { id: 'Rebecka', fornavn: 'Rebecka', bilde: 'bildeavrebecka.png'},
-  { id: 'Mohammed', fornavn: 'Mohammed', bilde: 'bildeavmohammed.png'},
+  { id: 'sophia', fornavn: 'Sophia', bilde: 'bildeavsophia.png', beskrivelse: 'tekst', rolle: 'student'},
+  { id: 'Ikram', fornavn: 'Ikram', bilde: 'bildeavikram.png', beskrivelse: 'tekst', rolle: 'student'},
+  { id: 'Rebecka', fornavn: 'Rebecka', bilde: 'bildeavrebecka.png', beskrivelse: 'tekst', rolle: 'student'},
+  { id: 'Mohammed', fornavn: 'Mohammed', bilde: 'bildeavmohammed.png', beskrivelse: 'tekst', rolle: 'student'},
 ];
 
 function App() {
-  <HomePage />
   const [count, setCount] = useState(0);
   return (
     <Router>
@@ -29,7 +28,7 @@ function App() {
             <Route path="/" element={<HomePage gruppeteam={gruppeteam} />} />
             {personer.map(person => ( 
               <Route key={person.id} path={`/${person.id}`} element={<Gruppen person={person} />} />
-            ))}
+        ))}
           </Routes>
         </div>
       </div>
