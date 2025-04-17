@@ -7,8 +7,10 @@ function Gruppen({ person }) {
       <div className="bilder-app">
         <img src={person.bilde} alt={person.fornavn} />
       </div>
-      {person.beskrivelse && <p>{person.beskrivelse}</p>}
-      {person.rolle && <p>Rolle: {person.rolle}</p>}
+      {person.fornavn && <p>Fornavn: {person.fornavn}</p>}
+      {person.etternavn && <p>Etternavn: {person.etternavn}</p>}
+      {person.epost && <p>E-post: {person.epost}</p>}
+      {person.beskrivelse && <p>Beskrivelse: {person.beskrivelse}</p>}
       </div>
         );
     }    
