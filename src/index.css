@@ -65,11 +65,14 @@ a:hover {
 
 .innhold-app {
   padding:25px;
+  text-align: center;
+  
 }
 
 img {
   width:25%;
   height:25%;
+  
 }
 
 
