@@ -32,11 +32,11 @@ const profiles = [
     {
       id: 'mohammed',
       fornavn: 'Mohammed',
-      etternavn: '?',
-      epost: '?@hiof.no',
-      bilde: '??.png',
-      bio: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.',
-      interesser: ['bla', 'bla', 'bla'],
+      etternavn: 'Yousif',
+      epost: 'mohammey@hiof.no',
+      bilde: 'bildeavmohammed.png',
+      bio: 'Jeg heter Mohammed Yousif, og er 21 år. Jeg ble født i bergen og flyttet til fredrikstad da jeg var 6 år. Da bodde jeg i torp.Nå bor i fredrikstad,lisleby. Der har jeg bodd i 4 år.',
+      interesser: ['Fotball', 'Trening', 'Kjøre bil'],
     },
   ];
   
