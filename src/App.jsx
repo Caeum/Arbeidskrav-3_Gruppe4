@@ -5,8 +5,8 @@ import viteLogo from '/vite.svg'
 import './index.css'
 import HomePage from './components/HomePage'
 import Gruppen from './components/Gruppen'
-import profiles from './assets/Profiles';
-
+import profiles from './assets/profiles';
+import Gruppeprofilene from './components/gruppeprofiler';
 
 // HOVEDKOMPONENTEN
 const gruppeteam = "Gruppemedlemmer";
@@ -28,6 +28,7 @@ function App() {
           <Meny gruppeteam={gruppeteam} profiles={profiles} />
         </header>
         <div className="innhold-app">
+          <Gruppeprofilene />
           <Routes>
             {/* Viser hjem-siden når path = "/" */}
             <Route path="/" element={<HomePage gruppeteam={gruppeteam} />} />
@@ -61,5 +62,6 @@ function Meny({ gruppeteam, profiles }) {
     </nav>
   );
 }
+
 
 export default App;
