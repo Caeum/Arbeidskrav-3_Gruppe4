@@ -5,13 +5,12 @@ import viteLogo from '/vite.svg'
 import './index.css'
 import HomePage from './components/HomePage'
 import Gruppen from './components/Gruppen'
-import profiles from './assets/profiles';
+import profiles from './assets/Profiles.js';
 import Gruppeprofilene from './components/gruppeprofiler';
-import arbeidslogg from './assets/arbeidslogg';
 
 
 // HOVEDKOMPONENTEN
-const gruppeteam = "Gruppemedlemmer";
+const gruppeteam = "";
 /* const personer = [
   { id: 'sophia', fornavn: 'Sophia', bilde: 'bildeavsophia.png', etternavn: 'Helseth', epost: 'sphelset@hiof.no', beskrivelse: 'Jeg heter Sophia, og jeg er 27 år, og elsker løping. Jeg bor i Fredrikstad og liker design. interesser: løpe, danse, lese',},
   { id: 'Ikram', fornavn: 'Ikram Morgan', bilde: 'bildeavikram.png', etternavn: 'Hassan', epost: 'ikrammh@hiof.no', beskrivelse: 'kommer',},
@@ -20,21 +19,21 @@ const gruppeteam = "Gruppemedlemmer";
 ]; */
 
 function App() {
-  const [count, setCount] = useState(0); // Ikke i bruk nå, men kan beholdes for videre utvikling
+  const [count, setCount] = useState(0); 
   return (
     <Router>
       <div className="container-app">
         <header className="header-app">
           <div className="logo-app">GRUPPE 4</div>
-            {/* Endring: Sender inn `profiles` til Meny-komponenten i stedet for `personer` for at profiles.js skal funke og blir skrevet inn i nettsiden*/}
+           {/* Sender inn profilsamling til Meny-komponenten */}
           <Meny gruppeteam={gruppeteam} profiles={profiles} />
         </header>
         <div className="innhold-app">
         <Routes>
-    {/* Viser hjem-siden når path = "/" */}
+          {/* Rute til startsiden ("/") */}
     <Route path="/" element={<HomePage gruppeteam={gruppeteam} />} />
     
-    {/* Dynamisk opprettelse av ruter for hver person i profillisten */}
+     {/* Dynamisk opprettelse av en rute for hver person i `profiles` */}
     {profiles.map(person => ( 
       <Route key={person.id} path={`/${person.id}`} element={<Gruppen person={person} />} />
     ))}
@@ -46,15 +45,16 @@ function App() {
   );
 }
 
-// NAVIGASJONSKOMPONENT
+// MENY-KOMPONENT
 function Meny({ gruppeteam, profiles }) {
   return (
     <nav className="meny">
       <ul>
+        {/* Link til startsiden */}
         <li>
           <Link to="/">Hjem</Link>
           </li>
-           {/* Dynamisk generering av linker for hver person basert på `profiles` */}
+          {/* Dynamisk generering av menyvalg for hvert gruppemedlem */}
           {profiles.map(person => (
             <li key={person.id}>
               <Link to={`/${person.id}`}>{person.fornavn}</Link>

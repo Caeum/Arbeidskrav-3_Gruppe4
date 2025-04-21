@@ -1,5 +1,4 @@
-// Liste over alle personer i gruppen
-// Brukes for å generere både meny og visning
+// Liste over alle personer i gruppen.
 
 const profiles = [
     {
@@ -8,7 +7,7 @@ const profiles = [
       etternavn: 'Hassan',
       epost: 'ikrammh@hiof.no',
       bilde: 'bildeavikram.png',
-      bio: 'Hei! Jeg heter Ikram Morgan Hassan, er 23 år gammel og bor i Moss. Jeg er lidenskapelig opptatt av kreative uttrykk som å tegne, male og 3D-modellering. Jeg elsker spill, både å spille og skape dem. Nylig har jeg blitt hekta på Pokémon, både kortsamling og selve spillet. På fritiden liker jeg å lese engelske bøker, spesielt innen fantasy, sci-fi og horror. Når jeg er i hyperfokus, kan jeg jobbe i timesvis uten å merke tiden gå.',
+      bio: 'Hei! Jeg heter Ikram Morgan Hassan, er 23 år gammel og bor i Moss. Jeg er en kreativ sjel som elsker å tegne, male og drive med 3D-modellering. Spill er en stor del av livet mitt – både å spille og å lage dem. En av favorittseriene mine er Final Fantasy, jeg elsker både spillopplevelsen og de fantastiske historiene. På fritiden liker jeg å lese bøker på engelsk, helst innen fantasy, sci-fi og horror. Når jeg havner i hyperfokus, kan jeg jobbe intenst og lenge uten å merke tiden.',
       interesser: ['Spill', 'tegne', '3D-modelere', 'bøker', 'figuriner', 'Pokémon'],
     },
     {

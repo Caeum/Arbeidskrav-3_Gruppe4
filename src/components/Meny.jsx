@@ -10,7 +10,8 @@ function Meny({ profiles }) {
         <li>
           <Link to="/">Hjem</Link>
         </li>
-         {/* Dynamisk generert liste med linker til hver person */}
+
+        {/* Genererer en meny-lenke for hvert medlem */}
         {profiles.map(person => (
           <li key={person.id}>
             <Link to={`/${person.id}`}>{person.fornavn}</Link>
