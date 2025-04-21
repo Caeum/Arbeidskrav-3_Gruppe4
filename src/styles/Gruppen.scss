@@ -1,4 +1,4 @@
-.personer-app {
+.personer-app { 
    
     gap: 2rem;
     padding: 2rem;
@@ -9,6 +9,7 @@
     .bilder-app {
       flex: 1 1 250px;
       max-width: 300px;
+      float: left;
   
       img {
         width: 280px;

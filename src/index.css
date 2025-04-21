@@ -1,6 +1,5 @@
 :root {
   font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
-  line-height: 1.5;
   font-weight: 400;
 
   color-scheme: light dark;
@@ -16,7 +15,6 @@
 a {
   text-transform: uppercase;
   padding: calc(0.5rem + 4px) 1rem;
-  display: inline-block;
   text-decoration: none;
   border-bottom: 2px solid #000;
 }
@@ -39,7 +37,7 @@ a:hover {
   justify-content: space-between;
   align-items:center;
   padding:30px;
-  background-color:grey;
+  background-color: darkslateblue;
 }
 
 .logo-app {
@@ -60,14 +58,23 @@ a:hover {
 
 .meny a {
   text-decoration: none;
-  color: #000;
+  color: white;
 }
 
-.innhold-app {
-  padding:25px;
+div h1{
   text-align: center;
-  
 }
+
+div p{
+  text-align: center;
+}
+
+.interesser{
+  padding-left: 18rem;
+}
+
+
+
 
 
 img {
@@ -75,6 +82,9 @@ img {
   height:25%;
   
 }
+
+
+
 
 
 /*

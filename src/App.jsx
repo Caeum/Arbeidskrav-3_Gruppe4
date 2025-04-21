@@ -27,7 +27,7 @@ function App() {
             {/* Endring: Sender inn `profiles` til Meny-komponenten i stedet for `personer` for at profiles.js skal funke og blir skrevet inn i nettsiden*/}
           <Meny gruppeteam={gruppeteam} profiles={profiles} />
         </header>
-        <div className="innhold-app">
+        <div>
           <Routes>
             {/* Viser hjem-siden når path = "/" */}
             <Route path="/" element={<HomePage gruppeteam={gruppeteam} />} />
