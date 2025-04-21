@@ -28,7 +28,6 @@ function App() {
           <Meny gruppeteam={gruppeteam} profiles={profiles} />
         </header>
         <div className="innhold-app">
-          <Gruppeprofilene />
           <Routes>
             {/* Viser hjem-siden når path = "/" */}
             <Route path="/" element={<HomePage gruppeteam={gruppeteam} />} />
@@ -37,6 +36,9 @@ function App() {
             {profiles.map(person => ( 
               <Route key={person.id} path={`/${person.id}`} element={<Gruppen person={person} />} />
         ))}
+          </Routes>
+          <Routes>
+            <Route path="/" element={<Gruppeprofilene />} />
           </Routes>
         </div>
       </div>
