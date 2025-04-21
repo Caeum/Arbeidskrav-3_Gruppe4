@@ -26,7 +26,7 @@ function Gruppen({ person }) {
       {person.bio && <p>{person.bio}</p>}
       {/* Viser interesser, hvis lista finnes og ikke er tom */}
       {person.interesser && person.interesser.length > 0 && (
-        <div>
+        <div className="interesser">
           <h2>Interesser</h2>
           <ul>
             {person.interesser.map((interesse, index) => (
