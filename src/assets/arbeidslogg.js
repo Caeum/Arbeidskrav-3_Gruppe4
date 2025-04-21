@@ -119,7 +119,7 @@ const arbeidslogg = [
     dato: '2025-04-13',
     navn: 'Sophia Helseth',
     id: 'sophia',
-    oppgave: 'Opprettet Gruppen.css og lagde CSS-regler for bilder og navn. Skrev inn kode for å få fram bilder av gruppemedlemmer i App.jsx. Lagde kode for å få fram navn på hvert gruppemedlem når man trykket på linkene. Redigerte en fil som het index.css, og lagde et CSS-utgangspunkt for hele nettsiden.',
+    oppgave: 'Lagde CSS-regler for bilder og navn. Skrev inn kode for å få fram bilder av gruppemedlemmer. Lagde kode for å få fram navn på hvert gruppemedlem når man trykket på linkene. Lagde et CSS-utgangspunkt for hele nettsiden.',
     timer: '2 timer'
   },
   {
