@@ -13,7 +13,6 @@
 }
 
 a {
-  text-transform: uppercase;
   padding: calc(0.5rem + 4px) 1rem;
   text-decoration: none;
   border-bottom: 2px solid #000;
@@ -99,6 +98,19 @@ img {
   width:210px;
   height:190px;
 }
+
+@media screen and (max-width: 1000px) {
+  .gruppeprofilene {
+    flex-direction: column;
+  }
+
+  .header-app{
+    flex-direction: row;
+  }
+}
+
+
+
 
 
 
