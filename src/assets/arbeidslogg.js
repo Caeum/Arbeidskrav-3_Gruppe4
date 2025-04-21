@@ -119,21 +119,21 @@ const arbeidslogg = [
     dato: '2025-04-13',
     navn: 'Sophia Helseth',
     id: 'sophia',
-    oppgave: 'Opprettet Gruppen.css og lagde CSS-regler for bilder og navn. Skrev inn kode for å få fram bilder av gruppemedlemmer i App.jsx. Opprettet også Gruppen.jsx og function Gruppen i filen, for at bildene på nettsiden skulle vises. Lagde function App( ) elementet i App.jsx og lagde diverse klasser til å style nettstedet, og kode for å få fram navn på hvert gruppemedlem når man trykket på linkene, og kodet en mulighet for å fylle inn mer tekst om man trykket på en link til et gruppemedlem. Jeg kodet Routes, Route key, map. Lagde function Meny( ) i App.jsx, for å få en navigasjonsmeny, hvor man kunne trykke på de ulike navnene til folk i gruppen, for å navigere mellom «Hjem» og de ulike gruppemedlemmene. Routes, route key, map. Redigerte filen HomePage.jsx, og la til en prop som het gruppeteam, som handlet om å få fram navnene på gruppemedlemmene. Opprettet Meny.jsx, som måtte være der for å få fram navigasjonsmenyen. Redigerte en fil som het index.css, og lagde et CSS-utgangspunkt for hele nettsiden. Lagde en header, som hadde en farget bakgrunn med teksten «Vårt team» i venstre hjørne. Deretter lagde jeg navigasjonsmenyen plassert på linje på andre siden, stylet og plassert med bruk av CSS.',
+    oppgave: 'Opprettet Gruppen.css og lagde CSS-regler for bilder og navn. Skrev inn kode for å få fram bilder av gruppemedlemmer i App.jsx. Lagde kode for å få fram navn på hvert gruppemedlem når man trykket på linkene. Redigerte en fil som het index.css, og lagde et CSS-utgangspunkt for hele nettsiden.',
     timer: '2 timer'
   },
   {
     dato: '2025-04-17',
     navn: 'Sophia Helseth',
     id: 'sophia',
-    oppgave: 'La til kode i Meny.jsx, function Meny( ), den som jeg kodet i App.jsx filen. Redigerte Gruppen.jsx, og ordnet flere beskrivelser man kunne beskrive gruppemedlemmer med. I tillegg til bilde og fornavn, la jeg til kode med «beskrivelse» for å beskrive personer og kode for «rolle» gruppemedlemmet hadde, som man kunne fylle inn etterpå. En del av koden for å få til dette, lagde jeg også i App.jsx i variabler kalt «gruppeteam» og «personer» med id, fornavn, bilde. Skrev inn en beskrivelse av meg selv og la til bilde av meg selv. La til flere, epost, etternavn, fornavn, beskrivelse i Gruppen.jsx. Skrev inn for andre gruppemedlemmer deres info om seg selv fra profiles.js filen, og jeg skrev også mer info om meg selv. Minsket bildene på nettsiden, fordi de gikk over hele skjermen. I CSS minket jeg bildenes høyde og bredde til 25%.',
+    oppgave: 'Ordnet flere beskrivelser man kunne beskrive gruppemedlemmer med.',
     timer: '1 time'
   },
   {
     dato: '2025-04-21',
     navn: 'Sophia Helseth',
     id: 'sophia',
-    oppgave: 'Redigerte teksten om meg selv og la til mer info. Lagde gruppeprofil på forsiden, og passet også på at det bare var på forsiden. Stylet hvordan gruppeprofilen på forsiden av nettsiden skulle se ut.',
+    oppgave: 'Lagde gruppeprofil på forsiden. Stylet hvordan gruppeprofilen på forsiden av nettsiden skulle se ut.',
     timer: '2 timer'
   },
 ];
