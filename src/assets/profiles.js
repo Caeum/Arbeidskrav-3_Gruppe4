@@ -7,7 +7,7 @@ const profiles = [
       etternavn: 'Hassan',
       epost: 'ikrammh@hiof.no',
       bilde: 'bildeavikram.png',
-      bio: 'Hei! Jeg heter Ikram Morgan Hassan, er 23 år gammel og bor i Moss. Jeg er en kreativ sjel som elsker å tegne, male og drive med 3D-modellering. Spill er en stor del av livet mitt – både å spille og å lage dem. En av favorittseriene mine er Final Fantasy, jeg elsker både spillopplevelsen og de fantastiske historiene. På fritiden liker jeg å lese bøker på engelsk, helst innen fantasy, sci-fi og horror. Når jeg havner i hyperfokus, kan jeg jobbe intenst og lenge uten å merke tiden.',
+      bio: 'Hei! Jeg heter Ikram Morgan Hassan, er 23 år gammel og bor i Moss. Jeg er en kreativ sjel som elsker å tegne, male og drive med 3D-modellering. Spill er en stor del av livet mitt, både å spille og å lage dem. En av favorittseriene mine er Final Fantasy, jeg elsker både spillopplevelsen og de fantastiske historiene. På fritiden liker jeg å lese bøker på engelsk, helst innen fantasy, sci-fi og horror. Når jeg havner i hyperfokus, kan jeg jobbe intenst og lenge uten å merke tiden.',
       interesser: ['Spill', 'tegne', '3D-modelere', 'bøker', 'figuriner', 'Pokémon'],
     },
     {
