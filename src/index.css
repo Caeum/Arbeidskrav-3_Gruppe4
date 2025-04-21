@@ -100,6 +100,19 @@ img {
   height:190px;
 }
 
+@media screen and (max-width: 1000px) {
+  .gruppeprofilene {
+    flex-direction: column;
+  }
+
+  .header-app{
+    flex-direction: row;
+  }
+}
+
+
+
+
 
 
 
