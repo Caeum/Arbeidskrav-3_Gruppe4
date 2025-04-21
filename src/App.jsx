@@ -7,6 +7,8 @@ import HomePage from './components/HomePage'
 import Gruppen from './components/Gruppen'
 import profiles from './assets/profiles';
 import Gruppeprofilene from './components/gruppeprofiler';
+import arbeidslogg from './assets/arbeidslogg';
+
 
 // HOVEDKOMPONENTEN
 const gruppeteam = "Gruppemedlemmer";
@@ -28,18 +30,16 @@ function App() {
           <Meny gruppeteam={gruppeteam} profiles={profiles} />
         </header>
         <div className="innhold-app">
-          <Routes>
-            {/* Viser hjem-siden når path = "/" */}
-            <Route path="/" element={<HomePage gruppeteam={gruppeteam} />} />
-            {/* Endring: Bruker `profiles.map` istedenfor `personer.map` */}
-            {/* Dynamisk opprettelse av ruter for hver person i profillisten */}
-            {profiles.map(person => ( 
-              <Route key={person.id} path={`/${person.id}`} element={<Gruppen person={person} />} />
-        ))}
-          </Routes>
-          <Routes>
-            <Route path="/" element={<Gruppeprofilene />} />
-          </Routes>
+        <Routes>
+    {/* Viser hjem-siden når path = "/" */}
+    <Route path="/" element={<HomePage gruppeteam={gruppeteam} />} />
+    
+    {/* Dynamisk opprettelse av ruter for hver person i profillisten */}
+    {profiles.map(person => ( 
+      <Route key={person.id} path={`/${person.id}`} element={<Gruppen person={person} />} />
+    ))}
+  </Routes>
+         
         </div>
       </div>
     </Router>
