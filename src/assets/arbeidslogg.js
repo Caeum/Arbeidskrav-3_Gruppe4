@@ -141,6 +141,30 @@ const arbeidslogg = [
     oppgave: 'Fikset error i App.jsx, finjusterte SCSS, CSS og kommentar.',
     timer: '3 timer'
   },
+  {
+    dato: '2025-04-14',
+    navn: 'Rebecka Westborg',
+    id: 'rebecka',
+    oppgave: 'Opprettet sanity-prosjekt og inviterte de andre på gruppa',
+    timer: '1 time'
+  },
+  {
+    dato: '2025-04-14',
+    navn: 'Rebecka Westborg',
+    id: 'rebecka',
+    oppgave: 'Lastet ned sass',
+    timer: '1 time'
+  },
+  {
+    dato: '2025-04-23',
+    navn: 'Rebecka Westborg',
+    id: 'rebecka',
+    oppgave: 'Skrev inn biografen min og loggen',
+    timer: '1 time'
+  },
+
+  
+  
 
 
 ];
