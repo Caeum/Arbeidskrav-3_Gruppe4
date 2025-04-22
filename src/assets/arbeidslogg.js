@@ -7,20 +7,34 @@ const arbeidslogg = [
     id: 'ikram',
     oppgave: 'Github og React oppsett og inviterer gruppene.',
     timer: '1 time'
-  },  
+  },    
   {
     dato: '2025-04-7',
     navn: 'Mohammed Shirco Yousif',
     id: 'mohammed',
     oppgave: 'Hjalp til med å opprette "HomePage.jsx" komponenten.',
     timer: '1 time'
-  },  
+  },   
   {
     dato: '2025-04-13',
     navn: 'Sophia Helseth',
     id: 'sophia',
     oppgave: 'Lagde CSS-regler for bilder og navn. Skrev inn kode for å få fram bilder av gruppemedlemmer. Lagde kode for å få fram navn på hvert gruppemedlem når man trykket på linkene. Lagde et CSS-utgangspunkt for hele nettsiden.',
     timer: '2 timer'
+  },  
+  {
+    dato: '2025-04-14',
+    navn: 'Rebecka Westborg',
+    id: 'rebecka',
+    oppgave: 'Opprettet sanity-prosjekt og inviterte de andre på gruppa',
+    timer: '1 time'
+  },  
+  {
+    dato: '2025-04-14',
+    navn: 'Rebecka Westborg',
+    id: 'rebecka',
+    oppgave: 'Lastet ned sass',
+    timer: '1 time'
   },
   {
     dato: '2025-04-16',
@@ -142,30 +156,12 @@ const arbeidslogg = [
     timer: '3 timer'
   },
   {
-    dato: '2025-04-14',
-    navn: 'Rebecka Westborg',
-    id: 'rebecka',
-    oppgave: 'Opprettet sanity-prosjekt og inviterte de andre på gruppa',
-    timer: '1 time'
-  },
-  {
-    dato: '2025-04-14',
-    navn: 'Rebecka Westborg',
-    id: 'rebecka',
-    oppgave: 'Lastet ned sass',
-    timer: '1 time'
-  },
-  {
     dato: '2025-04-23',
     navn: 'Rebecka Westborg',
     id: 'rebecka',
     oppgave: 'Skrev inn biografen min og loggen',
     timer: '1 time'
   },
-
-  
-  
-
 
 ];
 
